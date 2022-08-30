@@ -22,10 +22,10 @@ class Store:
         if type(action) != dict:
             raise ValueError("Expecting action to be of type dictionary")
 
-        has_type = "type" in action or type in action
+        has_kind = "kind" in action
 
-        if not has_type:
-            raise ValueError("Action is expected to have an attribute 'type'")
+        if not has_kind:
+            raise ValueError("Action is expected to have an attribute 'kind'")
 
         currentStates = None
 
