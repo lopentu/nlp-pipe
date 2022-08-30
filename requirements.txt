@@ -1,4 +1,3 @@
-redis==4.3.4
 aiofiles==0.8.0
 cwngraph==0.4.0
 distiltag==0.2.2
