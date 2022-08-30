@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 streamlit = "*"
 aiofiles = "*"
+ckip-transformers = "*"
+cwngraph = "*"
+distiltag = "*"
+cwnsensetagger = "*"
 
 [dev-packages]
 
