@@ -15,4 +15,5 @@ wsg_store.add_listener(return_value)
 
 
 def use_WSG() -> List[Union[str, Callable]]:
+    """The use_WSG function contains wsg result and and wsg dispatcher."""
     return [wsg_store.get_state(), wsg_store.dispatch]
