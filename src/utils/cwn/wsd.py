@@ -11,6 +11,7 @@ tagger = DistilTag()
 
 
 async def tag_values(value):
+    """The tag_values function makes `tagger.tag` function an asynchronous function."""
     return tagger.tag(value)
 
 
