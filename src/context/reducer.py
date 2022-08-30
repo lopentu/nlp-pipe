@@ -7,7 +7,7 @@ def reducer(state, action: Action) -> Union[str, Any]:
 
     initial_state = (state != None) if state else ""
 
-    if action.kind == WSGKind.ADD_WSG:
-        return action.payload
+    if action["kind"] == WSGKind.ADD_WSG:
+        return action["payload"]
 
     return initial_state
