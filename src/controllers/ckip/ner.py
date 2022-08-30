@@ -17,7 +17,7 @@ def is_list_of_empty_list(ner_token_list: List[Union[NerToken, None]]) -> bool:
 
 
 def handle_create_ner(nlp_model: str, sentence_list: List[str]) -> List[str]:
-    """The handle_ner_chunker function handles the request that deals with NER.
+    """The handle_create_ner function handles the request that deals with NER.
 
     Args:
         nlp_model (str): the nlp model name
